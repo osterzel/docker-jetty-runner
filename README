@@ -1,0 +1,6 @@
+# image to run war files using jetty-runner  
+# usage:
+FROM medallia/jetty-runner 
+WORKDIR /
+ADD app.war /
+CMD ["app.war", "8080"]
