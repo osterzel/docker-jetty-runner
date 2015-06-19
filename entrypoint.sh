@@ -1,3 +1,3 @@
 #! /bin/bash
-java -jar jetty.jar --port $2 $1
+java -cp /jetty.jar org.eclipse.jetty.runner.Runner --port $2 $1
 
