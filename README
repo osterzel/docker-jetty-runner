@@ -3,4 +3,4 @@
 FROM medallia/jetty-runner 
 WORKDIR /
 ADD app.war /
-CMD ["app.war", "8080"]
+CMD ["app.war", "8080", "APP_NAME_FOR_NEW_RELIC"]
