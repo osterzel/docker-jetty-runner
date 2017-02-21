@@ -23,3 +23,5 @@ Additionally it provides a use of the entrypoint with environment control
 - JAVA_OPTS - this is to overrid the java options passed to the app
 
 ``` docker run -t -i -e JAVA_OPTS="-Xms10m -Xmx128m" quay.io/osterzel/jetty-runner:dev ```
+
+---
