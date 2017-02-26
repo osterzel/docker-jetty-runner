@@ -25,3 +25,4 @@ Additionally it provides a use of the entrypoint with environment control
 ``` docker run -t -i -e JAVA_OPTS="-Xms10m -Xmx128m" quay.io/osterzel/jetty-runner:dev ```
 
 ---
+
