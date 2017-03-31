@@ -1,4 +1,4 @@
-#Description
+# Description
 
 [![Build Status](https://travis-ci.org/osterzel/docker-jetty-runner.svg?branch=master)](https://travis-ci.org/osterzel/docker-jetty-runner)
 
@@ -8,7 +8,7 @@ that has tomcat or jetty installed.
 This puts both the jetty services and app in the developers control.
 Additionally it provides a use of the entrypoint with environment control
 
-#Usage:
+# Usage:
 
 ## How to build
 
@@ -18,7 +18,7 @@ Additionally it provides a use of the entrypoint with environment control
 
 ``` make test ```
 
-#Running manually
+# Running manually
 
 ## Parameters
 
