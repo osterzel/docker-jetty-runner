@@ -1,5 +1,7 @@
 #Description
 
+[![Build Status](https://travis-ci.org/osterzel/docker-jetty-runner.svg?branch=master)](https://travis-ci.org/osterzel/docker-jetty-runner)
+
 This repo contains an example container that executes a war file using jetty runner, rather than relying on a container
 that has tomcat or jetty installed.
 
